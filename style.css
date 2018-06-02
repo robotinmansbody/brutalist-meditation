@@ -50,16 +50,17 @@ li {
 	outline: none;
 	vertical-align: middle;
 	float: right;
+	background: transparent;
+	background-image: url(assets/switch.svg);
+	background-size: cover;
 }
 
 .audio-switch.audio-off {
-	background: url(assets/switch-off.svg);
-	background-size: cover;
+	background-position: left top;
 }
 
 .audio-switch.audio-on {
-	background: url(assets/switch-on.svg);
-	background-size: cover;
+	background-position: right top;
 }
 
 .about {
