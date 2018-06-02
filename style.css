@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 3em auto 3em;
+	width: 80%;
+	max-width: 480px;
+	padding: 0;
+	font-size: 18px;
+	line-height: 1.4em;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	color: #1f1f1f;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	display: block;
+	padding: 0.5em 0;
+}
+
+.audio-control-wrapper {
+	width: 100%;
+	padding: 0.5em 0;
+	border-bottom: 1px solid #eaeaea;
+	overflow: hidden;
+}
+
+.audio-control-wrapper:first-of-type {
+	border-top: 1px solid #eaeaea;
+}
+
+.audio-control-wrapper span {
+	vertical-align: middle;
+	line-height: 32px;
+}
+
+.audio-switch {
+	width: 60px;
+	height: 32px;
+	margin: 0 0 0 1em;
+	border: 0;
+	outline: none;
+	vertical-align: middle;
+	float: right;
+}
+
+.audio-switch.audio-off {
+	background: url(assets/switch-off.svg);
+	background-size: cover;
+}
+
+.audio-switch.audio-on {
+	background: url(assets/switch-on.svg);
+	background-size: cover;
+}
+
+.about {
+	margin: 2em 0 0;
+	color: #aeaeae;
+}
