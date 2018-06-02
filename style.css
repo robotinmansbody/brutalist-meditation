@@ -67,3 +67,7 @@ li {
 	margin: 2em 0 0;
 	color: #aeaeae;
 }
+
+.about a {
+	color: #000;
+}
